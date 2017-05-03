@@ -14,7 +14,7 @@ Run
 python -m SimpleHTTPServer 8000
 ```
 
-and open `index.html`.  Uses `d3.js`.
+and navigate to `127.0.0.1:8000` or `localhost:8000`.  Uses `d3.js`.
 
 ## TODOs
 
@@ -24,3 +24,4 @@ and open `index.html`.  Uses `d3.js`.
 * Click it to reveal all parent nodes
 * Unclick node to de-color everything
 * Add class name when hovering over something
+* Make node size proportional to node's degree.
